@@ -1,0 +1,9 @@
+C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MapEditor\MapEditor\bin\Debug\MapEditor.exe.config
+C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MapEditor\MapEditor\bin\Debug\MapEditor.exe
+C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MapEditor\MapEditor\bin\Debug\MapEditor.pdb
+C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MapEditor\MapEditor\obj\Debug\MapEditor.FormMain.resources
+C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MapEditor\MapEditor\obj\Debug\MapEditor.Properties.Resources.resources
+C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MapEditor\MapEditor\obj\Debug\MapEditor.csproj.GenerateResource.Cache
+C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MapEditor\MapEditor\obj\Debug\MapEditor.exe
+C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MapEditor\MapEditor\obj\Debug\MapEditor.pdb
+C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MapEditor\MapEditor\obj\Debug\MapEditor.csprojResolveAssemblyReference.cache
