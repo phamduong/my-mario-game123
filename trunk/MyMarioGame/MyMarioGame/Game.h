@@ -9,8 +9,8 @@
 #include "Camera.h"
 #include "Mario.h"
 
-#define SCREEN_WIDTH 800
-#define SCREEN_HEIGHT 640
+#define SCREEN_WIDTH 1024
+#define SCREEN_HEIGHT 700
 #define FULLSCREEN 0
 
 class MarioGame

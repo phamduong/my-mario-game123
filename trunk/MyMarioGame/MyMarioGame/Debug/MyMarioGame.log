@@ -1,25 +1,214 @@
-﻿Build started 11/9/2013 9:12:06 AM.
-     1>Project "C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MyMarioGame\MyMarioGame\MyMarioGame.vcxproj" on node 2 (Build target(s)).
+﻿Build started 12/18/2013 9:05:10 PM.
+     1>Project "C:\Users\phamduong\Desktop\MyMarioGame\MyMarioGame\MyMarioGame\MyMarioGame.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DxInput.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp DxGraphics.cpp DxInput.cpp Game.cpp GameObject.cpp Mario.cpp Resource.cpp Sprite.cpp Texture.cpp Timer.cpp WinMain.cpp
+         WinMain.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\camera.h(9): error C2236: unexpected token 'class'. Did you forget a ';'?
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\camera.h(9): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\camera.h(9): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\gameobject.h(35): error C2061: syntax error : identifier 'MCamera'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\gameobject.h(36): error C2061: syntax error : identifier 'MCamera'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\mario.h(46): error C2061: syntax error : identifier 'MCamera'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\mario.h(47): error C2061: syntax error : identifier 'MCamera'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\game.h(22): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\game.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\winmain.cpp(40): error C2440: '=' : cannot convert from 'const wchar_t [6]' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\winmain.cpp(75): error C2664: 'CreateWindowExA' : cannot convert parameter 2 from 'const wchar_t [6]' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Timer.cpp
+         Texture.cpp
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\texture.cpp(3): error C2533: 'MTexture::{ctor}' : constructors not allowed a return type
+         Sprite.cpp
+         Resource.cpp
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\sprite.h(7): error C2236: unexpected token 'class'. Did you forget a ';'?
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\sprite.h(8): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\sprite.h(8): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(60): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(61): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(62): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(62): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(63): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(64): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(64): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(65): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(65): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(66): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(66): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(67): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(67): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(68): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(68): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(69): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(69): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(70): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(71): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(71): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(72): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(72): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(73): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(73): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(74): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(75): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(75): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(76): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(77): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(77): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(78): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(79): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(79): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(80): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(81): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(82): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(82): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(94): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(94): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.h(94): warning C4183: 'GetResource': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(6): error C2065: 's_marioBig' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(6): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(7): error C2065: 's_marioSmall' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(7): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(8): error C2065: 's_marioGun' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(8): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(9): error C2065: 's_brick' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(9): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(10): error C2065: 's_question' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(10): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(11): error C2065: 's_pipesmall' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(11): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(12): error C2065: 's_pipemedium' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(12): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(13): error C2065: 's_pipebig' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(13): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(14): error C2065: 's_bigtree' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(14): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(15): error C2065: 's_smalltree' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(15): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(16): error C2065: 's_grass' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(16): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(17): error C2065: 's_mountain' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(17): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(18): error C2065: 's_cloud' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(18): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(19): error C2065: 's_fence' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(19): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(20): error C2065: 's_flower' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(20): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(21): error C2065: 's_coin' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(21): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(22): error C2065: 's_house' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(22): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(23): error C2065: 's_mushroom' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(23): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(24): error C2065: 's_turtle' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(24): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(25): error C2065: 's_turtleshield' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(25): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(26): error C2065: 's_bullet' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(26): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(27): error C2065: 's_item' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(27): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(28): error C2065: 's_brickbreak' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(28): error C2061: syntax error : identifier 'MSprite'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(38): error C2065: 's_marioBig' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(38): error C2227: left of '->Init' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(38): error C2664: 'MTexture::GetTexture' : cannot convert parameter 1 from 'const wchar_t [32]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(39): error C2065: 's_marioSmall' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(39): error C2227: left of '->Init' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(39): error C2664: 'MTexture::GetTexture' : cannot convert parameter 1 from 'const wchar_t [36]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(40): error C2065: 's_marioGun' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(40): error C2227: left of '->Init' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(40): error C2664: 'MTexture::GetTexture' : cannot convert parameter 1 from 'const wchar_t [36]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(41): error C2065: 's_brick' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(41): error C2227: left of '->Init' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(41): error C2664: 'MTexture::GetTexture' : cannot convert parameter 1 from 'const wchar_t [29]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(42): error C2065: 's_question' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(42): error C2227: left of '->Init' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(42): error C2664: 'MTexture::GetTexture' : cannot convert parameter 1 from 'const wchar_t [33]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(43): error C2065: 's_pipesmall' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(43): error C2227: left of '->Init' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(43): error C2664: 'MTexture::GetTexture' : cannot convert parameter 1 from 'const wchar_t [34]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(44): error C2065: 's_pipemedium' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(44): error C2227: left of '->Init' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(44): error C2664: 'MTexture::GetTexture' : cannot convert parameter 1 from 'const wchar_t [35]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(45): error C2065: 's_pipebig' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(45): error C2227: left of '->Init' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(45): error C2664: 'MTexture::GetTexture' : cannot convert parameter 1 from 'const wchar_t [32]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(46): error C2065: 's_flower' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(46): error C2227: left of '->Init' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(46): error C2664: 'MTexture::GetTexture' : cannot convert parameter 1 from 'const wchar_t [31]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(47): error C2065: 's_coin' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\resource.cpp(47): fatal error C1003: error count exceeds 100; stopping compilation
+         Mario.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\dxgraphics.h(8): error C2236: unexpected token 'class'. Did you forget a ';'?
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\dxgraphics.h(8): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\dxgraphics.h(8): error C2447: '{' : missing function header (old-style formal list?)
+         GameObject.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\dxgraphics.h(8): error C2236: unexpected token 'class'. Did you forget a ';'?
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\dxgraphics.h(8): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\dxgraphics.h(8): error C2447: '{' : missing function header (old-style formal list?)
+         Game.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\camera.h(9): error C2236: unexpected token 'class'. Did you forget a ';'?
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\camera.h(9): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\camera.h(9): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\gameobject.h(35): error C2061: syntax error : identifier 'MCamera'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\gameobject.h(36): error C2061: syntax error : identifier 'MCamera'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\mario.h(46): error C2061: syntax error : identifier 'MCamera'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\mario.h(47): error C2061: syntax error : identifier 'MCamera'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\game.h(22): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\game.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\game.cpp(15): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\game.cpp(39): error C2065: 'camera' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\game.cpp(39): error C2061: syntax error : identifier 'MCamera'
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\game.cpp(68): error C2065: 'camera' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\game.cpp(74): error C2065: 'camera' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\game.cpp(80): error C2065: 'camera' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\game.cpp(81): error C2065: 'camera' : undeclared identifier
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\game.cpp(81): error C2541: 'delete' : cannot delete objects that are not pointers
          DxInput.cpp
          c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-     1>c:\users\phamduong\documents\visual studio 2012\projects\mymariogame\mymariogame\dxinput.cpp(78): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MyMarioGame\Debug\MyMarioGame.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib dinput8.lib dxguid.lib dxerr.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MyMarioGame\Debug\MyMarioGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MyMarioGame\Debug\MyMarioGame.lib" /MACHINE:X86 Debug\Camera.obj
-         Debug\DxGraphics.obj
-         Debug\DxInput.obj
-         Debug\Game.obj
-         Debug\GameObject.obj
-         Debug\Mario.obj
-         Debug\Resource.obj
-         Debug\Sprite.obj
-         Debug\Texture.obj
-         Debug\Timer.obj
-         Debug\WinMain.obj
-         MyMarioGame.vcxproj -> C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MyMarioGame\Debug\MyMarioGame.exe
-     1>Done Building Project "C:\Users\phamduong\Documents\Visual Studio 2012\Projects\MyMarioGame\MyMarioGame\MyMarioGame.vcxproj" (Build target(s)).
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\dxinput.cpp(78): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+         DxGraphics.cpp
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\dxgraphics.cpp(82): error C2664: 'D3DXGetImageInfoFromFileA' : cannot convert parameter 1 from 'LPCWSTR' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\phamduong\desktop\mymariogame\mymariogame\mymariogame\dxgraphics.cpp(108): error C2664: 'D3DXLoadSurfaceFromFileA' : cannot convert parameter 4 from 'LPCWSTR' to 'LPCSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Camera.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Generating Code...
+     1>Done Building Project "C:\Users\phamduong\Desktop\MyMarioGame\MyMarioGame\MyMarioGame\MyMarioGame.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:15.81
+Time Elapsed 00:00:19.10

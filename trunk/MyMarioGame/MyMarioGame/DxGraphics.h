@@ -16,7 +16,7 @@ public:
 	~MGraphics();
 	int InitDirect3D(HWND, int, int, int);
 	LPDIRECT3DDEVICE9 GetD3DDevice();
-	LPDIRECT3DSURFACE9 LoadSurface(LPCSTR, D3DCOLOR);
+	LPDIRECT3DSURFACE9 LoadSurface(LPCWSTR, D3DCOLOR);
 	void BeginRender();
 	void EndRender();
 	void RealeaseDevice();

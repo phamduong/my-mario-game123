@@ -1,4 +1,5 @@
 #include "Resource.h"
+
 MResource* MResource::resource = NULL;
 
 MResource::MResource(){

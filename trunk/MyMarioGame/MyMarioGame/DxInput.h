@@ -2,7 +2,7 @@
 #define _DXINPUT_H_
 
 #include <dinput.h>
-#define BUTTON_DOWN(obj, button)(obj.rgbButtons[button] & 0X80)
+#define BUTTON_DOWN(obj, button) (obj.rgbButtons[button] & 0x80)
 #define KEYBOARD_BUFFER_SIZE 1024
 
 class MInput

@@ -3,7 +3,9 @@
 #include <d3d9.h>
 #include <d3dx9.h>
 #include <string>
+
 using namespace std;
+
 class MTexture{
 private:
 	D3DXIMAGE_INFO imageInfo;
@@ -12,9 +14,8 @@ private:
 public:
 	MTexture();
 	MTexture(LPDIRECT3DDEVICE9);
+	LPDIRECT3DTEXTURE9 GetTexture(LPCTSTR filename);
 	~MTexture();
-	LPDIRECT3DTEXTURE9 GetTexture(string);
-	D3DXIMAGE_INFO GetImageInfo();
-};
+}
 
 #endif

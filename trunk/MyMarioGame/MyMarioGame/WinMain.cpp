@@ -5,7 +5,7 @@
 #include "DxGraphics.h"
 #include "Game.h"
 
-#define APP_TITLE "Mario"
+#define APP_TITLE L"Mario"
 
 MarioGame* game = new MarioGame();
 
@@ -84,7 +84,7 @@ int WINAPI WinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLin
 	UpdateWindow(hwnd);
 
 	if(!game->GameInit(hwnd)){
-		MessageBox(hwnd, "Error when initializing game's resource", "Error", MB_OK);
+		MessageBoxA(hwnd, "Xảy ra lỗi khi khởi tạo game resource", "Lỗi", MB_OK);
 		return 0;
 	}
 	MSG msg;
