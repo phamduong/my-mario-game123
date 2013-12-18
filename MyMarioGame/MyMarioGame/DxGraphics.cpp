@@ -73,7 +73,7 @@ int MGraphics::InitDirect3D(HWND hWnd, int width, int height, int fullscreen){
 }
 
 
-LPDIRECT3DSURFACE9 MGraphics::LoadSurface(LPCSTR filename, D3DCOLOR transcolor){
+LPDIRECT3DSURFACE9 MGraphics::LoadSurface(LPCWSTR filename, D3DCOLOR transcolor){
 	LPDIRECT3DSURFACE9 image = NULL;
 	D3DXIMAGE_INFO info;
 	HRESULT result;

@@ -16,13 +16,13 @@ int MarioGame::GameInit(HWND hWnd){
 
 	//Init input
 	if(!dxinput->InitKeyBoard(hWnd)){
-		MessageBox(hWnd, "Error when initialize direct input", "Error", MB_OK);
+		MessageBoxA(hWnd, "Error when initialize direct input", "Error", MB_OK);
 		return 0;
 	};
 
 	//Init graphic
 	if(!dxgraphic->InitDirect3D(hWnd, SCREEN_WIDTH, SCREEN_HEIGHT, FULLSCREEN)){
-		MessageBox(hWnd, "Error when initialize direct 3d", "Error", MB_OK);
+		MessageBoxA(hWnd, "Error when initialize direct 3d", "Error", MB_OK);
 		return 0;
 	};
 
@@ -54,12 +54,12 @@ int MarioGame::GameRun(HWND hWnd, MSG msg){
 		}else{
 			if(timer->GetTime() < 1.0f){
 				timer->EndCount();
-				DrawWorld();
+				dxinput->ProcessKeyBoard();
 				UpdateWorld(timer->GetDeltaTime());
+				DrawWorld();
+				
 			}
 		}
-		//test
-		dxinput->ProcessKeyBoard();
 	}
 	return (int)msg.wParam;
 }

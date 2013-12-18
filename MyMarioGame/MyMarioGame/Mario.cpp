@@ -23,15 +23,15 @@ void Mario::Init(){
 	switch (startStatus)
 	{
 	case m_status_small:
-		this->sprite = mSpriteSmall;
+		sprite = mSpriteSmall;
 		this->curStatus = m_status_small;
 		break;
 	case m_status_big:
-		this->sprite = mSpriteBig;
+		sprite = mSpriteBig;
 		this->curStatus = m_status_big;
 		break;
 	case m_status_gun:
-		this->sprite = mSpriteGun;
+		sprite = mSpriteGun;
 		this->curStatus = m_status_gun;
 		break;
 	default:

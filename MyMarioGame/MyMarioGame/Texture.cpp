@@ -1,17 +1,19 @@
 #include "Texture.h"
+
 MTexture::MTexture(){}
+
 MTexture::MTexture(LPDIRECT3DDEVICE9 d3ddev){
 	this->d3ddev = d3ddev;
 }
 
-LPDIRECT3DTEXTURE9 MTexture::GetTexture(string filename){
+LPDIRECT3DTEXTURE9 MTexture::GetTexture(LPCTSTR filename){
 	//Standard windows return value
 	HRESULT result;
 	
 	//Get info from bitmap file
-	result = D3DXGetImageInfoFromFile(filename.c_str(), &this->imageInfo);
+	result = D3DXGetImageInfoFromFile(filename, &this->imageInfo);
 	if(FAILED(result)){
-		MessageBox(NULL, "Error when initialize texture", "Error", MB_OK);
+		MessageBoxA(NULL, "Error when initialize texture", "Error", MB_OK);
 		//exit(0);
 		return NULL;
 	}
@@ -19,7 +21,7 @@ LPDIRECT3DTEXTURE9 MTexture::GetTexture(string filename){
 	//Create texture by loading bitmap file
 	result = D3DXCreateTextureFromFileEx(
 		d3ddev,
-		filename.c_str(),
+		filename,
 		this->imageInfo.Width,
 		this->imageInfo.Height,
 		1,
@@ -39,8 +41,4 @@ LPDIRECT3DTEXTURE9 MTexture::GetTexture(string filename){
 	}
 	
 	return texture;
-}
-
-D3DXIMAGE_INFO MTexture::GetImageInfo(){
-	return this->imageInfo;
 }
